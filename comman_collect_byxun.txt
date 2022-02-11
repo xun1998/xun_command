@@ -1,0 +1,33 @@
+conda取消设置默认base环境
+conda config --set auto_activate_base false(true 恢复）
+
+ubuntu更换默认python版本：
+ls /usr/bin/python*
+update-alternatives --list python
+update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
+update-alternatives --config python
+
+设置cpu工作模式
+sudo cpufreq-set -g performance
+cpufreq-info
+
+
+github
+
+echo "# hello" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xun1998/hello.git
+git remote set-url origin https://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@github.com/xun1998/UWB-VLC.git
+git push -u origin main(git push origin main)
+git pull origin main --allow-unrelated-histories
+git log --pretty=oneline 
+git log
+git status
+git reset --hard (git log获得的地址）
+git revert (git log获得的地址）
+
+
