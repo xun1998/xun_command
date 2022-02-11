@@ -31,3 +31,5 @@ git reset --hard (git log获得的地址）
 git revert (git log获得的地址）
 
 
+
+
