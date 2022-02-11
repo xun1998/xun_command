@@ -13,8 +13,8 @@ sudo cpufreq-set -g performance
 cpufreq-info
 
 
-github
 
+#################github
 echo "# hello" >> README.md
 git init
 git add README.md
@@ -30,4 +30,29 @@ git status
 git reset --hard (git log获得的地址）
 git revert (git log获得的地址）
 
+
+#####catkin
+编译指定的包
+catkin_make -DCATKIN_WHITELIST_PACKAGES="包名"
+
+
+
+ubuntu kernel 
+查看
+dpkg --get-selections | grep linux
+安装
+sudo dpkg -i *.deb
+删除
+sudo apt purge linux-headers-5.12.19-051219 linux-image-unsigned-5.12.19-051219-generic 
+
+bash切换为zsh
+chsh -s /bin/zsh
+
+zsh切换为bash
+chsh -s /bin/bash
+
+conda base自启动
+conda config --set auto_activate_base true
+取消自启动
+conda config --set auto_activate_base false
 
