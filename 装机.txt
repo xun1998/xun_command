@@ -1,0 +1,26 @@
+sudo apt update
+sudo apt upgrade
+zsh安装：
+sudo apt install git
+sudo apt install zsh
+
+chsh -s /bin/zsh
+sudo reboot
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+插件主要装了高亮和补全，参考：https://www.jianshu.com/p/a94e2c59f244
+
+terminator 安装
+sudo apt install terminator
+
+ros安装：装ubuntu对应版本，按照官方教程即可。
+
+vscode安装：官网下载安装即可
+
+vim: sudo apt install vim
+
+谷歌浏览器：官网下载安装
+
+serial:
+sudo apt install ros-melodic-serial
+
+nooloop serial 人然需要重新安装，教程见nooloop readme.md
