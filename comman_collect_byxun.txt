@@ -27,8 +27,9 @@ git pull origin main --allow-unrelated-histories
 git log --pretty=oneline 
 git log
 git status
-git reset --hard (git log获得的地址）
+git reset --hard (git log获得的地址） set
 git revert (git log获得的地址）
+git branch --delete main(or other branch)
 
 
 #####catkin
